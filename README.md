@@ -2,8 +2,43 @@ Repurpose dir\
 This is the sucessor of https://github.com/pandaanson/data-download\
 Mapping creater done,note this code is not design to read in other input\
 
-Roadmap
-Mapping done(mapping creater)
+Data source:
+1. From tell
+https://github.com/IMMM-SFA/tell/blob/main/notebooks/tell_mlp_calibration_evaluation.ipynb
+```
+import tell
+current_dir =  os.path.join(os.path.dirname(os.getcwd()))
+tell_data_dir = os.path.join(current_dir, r'tell_data')
+tell.install_tell_raw_data(data_dir = tell_data_dir)
+tell.install_quickstarter_data(data_dir = tell_data_dir)
+tell.install_sample_forcing_data(data_dir = tell_data_dir)
+```
+Population come from here
+
+2. County shape file cb_2018_us_county_500k.zip [11 MB]
+https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
+
+3. County base weather data
+https://www.osti.gov/biblio/1960548
+
+4. Detail weather data:
+https://www.osti.gov/biblio/1885756
+This is use a reference grid
+
+5. rb shape file
+https://github.com/NREL/ReEDS-2.0
+
+6. EIA demand data 
+https://www.eia.gov/electricity/gridmonitor/about
+
+7. Contral area shape file
+https://hifld-geoplatform.hub.arcgis.com/datasets/geoplatform::control-areas/explore?location=33.336357%2C-112.615515%2C3.65
+
+Roadmap:
+Mapping(mapping creater)
+county weather===Mapping===>subregion weather(data generation for tell)
+
+
 
 Feb 26 Task\
 [X]Create Repo\
@@ -11,7 +46,7 @@ Feb 26 Task\
 [X]Create mapping for subregion to region\
 
 Feb 27 Task\
-[]Create Code to autmate generate historical and future data
+[X]Create Code to autmate generate historical and future data
 
 Note:
 For generate file
