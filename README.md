@@ -67,3 +67,18 @@ File name:AEC_WRF_Hourly_Mean_Meteorology_2020.csv
 Column:Time_UTC	T2	Q2	SWDOWN	GLW	WSPD
 
 
+Feb 29
+[]Prepare data for tell training
+
+Note for tell:
+Tell file require
+
+
+    # Rename the columns to add the units to each variable:
+    df.rename(columns={"DF": "Forecast_Demand_MWh",
+                       "Adjusted D": "Adjusted_Demand_MWh",
+                       "Adjusted NG": "Adjusted_Generation_MWh",
+                       "Adjusted TI": "Adjusted_Interchange_MWh"}, inplace=True)
+train:Year	Month	Day	Hour	Forecast_Demand_MWh	Adjusted_Demand_MWh	Adjusted_Generation_MWh	Adjusted_Interchange_MWh	Total_Population	T2	Q2	SWDOWN	GLW	WSPD
+
+
