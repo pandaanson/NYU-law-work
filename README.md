@@ -104,17 +104,122 @@ CISO does not have subregion map provided
 Electric Reliability Council of Texas, Inc. (ERCO)
 It use the weather mapping as subregion , we do not have this piece of demad provided and the mapping and the region is not that clear
 Midcontinent Independent System Operator, Inc. (MISO)
+Local Resource Zone		Local Balancing Authority
+ 
+1				DPC, GRE MDU, MP, NSP, OTP, SMP
+ 
+2				ALTE, MGE, MIUP, UPPC, WEC, WPS
+ 
+3				ALTW, MEC, MPW
+ 
+4				AMIL, CWPLP, GLH, SIPC
+ 
+5				AMMO, CWLD
+ 
+6				BREC, CIN, HE, HMPL, IPL, NIPS, SIGE 
+ 
+7				CONS, DECO
+ 
+8				EAI
+ 
+9				CLEC, EES, LAFA, LAGN, LEPA
+ 
+10				EES, SME
+
 
 New England ISO (ISNE)
 This is perfect
-https://www.iso-ne.com/static-assets/img/wwd-in-depth-wholesale-retail-wholesale-load-zones.jpg
 ![plot](./photo/ISONewEngland.jpg)
+
 New York Independent System Operator (NYIS)
+
 PJM Interconnection, LLC (PJM)
+mid
+
 Public Service Company of New Mexico (PNM)
+This one the rb does not serperate at all 
+
 Southwest Power Pool (SWPP)
 
-Match perfectly
+
+Problematic:
+GCPD p4
+WAUM p20
+SPA p84
+TEPC p27
+TPWR p1
+DOPD p3
+JEA p3
+![plot](./Missing_BA_Code_JEA.png)
+Two small piece
+
+FMPP p102
+CHPD p1
+![plot](./Missing_BA_Code_CHPD.png)
+CHPD cross p1 and p3
+{
+    "GCPD": "p4",
+    "WAUM": "p20",
+    "SPA": "p84",
+    "TEPC": "p27",
+    "TPWR": "p1",
+    "DOPD": "p3",
+    "JEA": "p3",
+    "FMPP": "p102",
+    "CHPD": "p1"
+}
+
+
+BA rb
+LDWP p10
+![plot](./Missing_BA_Code_LDWP.png)
+Too small to capture
+GCPD  p109
+LGEE p109
+![plot](./Missing_BA_Code_LGEE.png)
+Need attention
+PGE p5
+SRP p28
+TEC p101
+OVEC p112
+TAL p101
+BANC p9
+![plot](./Missing_BA_Code_BANC.png)
+For BANC it is too small to capture by the existing code
+PSEI p1
+SCI p1
+NBSO p34
+FPC p101
+NSB p101
+HST p102
+SEPA p94
+SCEG p96
+GVL p101
+IID p10
+TIDC p9
+
+{
+    "LDWP": "p10",
+    "GCPD": "p109",
+    "LGEE": "p109",
+    "PGE": "p5",
+    "SRP": "p28",
+    "TEC": "p101",
+    "OVEC": "p112",
+    "TAL": "p101",
+    "BANC": "p9",
+    "PSEI": "p1",
+    "SCI": "p1",
+    "NBSO": "p34",
+    "FPC": "p101",
+    "NSB": "p101",
+    "HST": "p102",
+    "SEPA": "p94",
+    "SCEG": "p96",
+    "GVL": "p101",
+    "IID": "p10",
+    "TIDC": "p9"
+}
 
 
 
