@@ -34,6 +34,9 @@ https://www.eia.gov/electricity/gridmonitor/about
 7. Contral area shape file
 https://hifld-geoplatform.hub.arcgis.com/datasets/geoplatform::control-areas/explore?location=33.336357%2C-112.615515%2C3.65
 
+8. Subregion level data
+https://github.com/truggles/EIA_Cleaned_Hourly_Electricity_Demand_Code/blob/master/step1_get_eia_demand_data.ipynb
+
 Roadmap:
 Mapping(mapping creater)
 county weather===Mapping===>subregion weather(data generation for tell)
@@ -80,5 +83,13 @@ Tell file require
                        "Adjusted NG": "Adjusted_Generation_MWh",
                        "Adjusted TI": "Adjusted_Interchange_MWh"}, inplace=True)
 train:Year	Month	Day	Hour	Forecast_Demand_MWh	Adjusted_Demand_MWh	Adjusted_Generation_MWh	Adjusted_Interchange_MWh	Total_Population	T2	Q2	SWDOWN	GLW	WSPD
+
+
+Subregion
+
+Mar 3
+[] Play with demand data
+Note, some ba are GENERATION-ONLY BAS
+
 
 
