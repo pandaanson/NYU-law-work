@@ -265,7 +265,7 @@ too small
 {
     "LDWP": "p10",
     "GCPD": "p109",
-    "LGEE": []"p109",p108],
+    "LGEE": ["p109",p108],
     "PGE": "p5",
     "SRP": "p28",
     "TEC": "p101",
@@ -285,6 +285,22 @@ too small
     "TIDC": "p9"
 }
 ```
+
+Generation-only BAs consist of a power plant or group of power plants and do not directly serve retail customers. Therefore, they only report net generation and interchange and do not report demand or demand forecasts.
+
+Eleven active BAs are generation-only:
+
+Avangrid Renewables, LLC (AVRN)
+Arlington Valley, LLC – AVBA (DEAA)
+GridLiance (GLHB)
+Gridforce Energy Management, LLC (GRID)
+Griffith Energy, LLC (GRIF)
+Gila River Power, LLC (GRMA)
+NaturEner Power Watch, LLC (GWA)
+New Harquahala Generating Company, LLC – HGBA (HGMA)
+Southeastern Power Administration (SEPA)
+NaturEner Wind Watch, LLC (WWA)
+Alcoa Power Generating, Inc. – Yadkin Division (YAD)
 
 
 
