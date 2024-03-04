@@ -93,6 +93,30 @@ Mar 3
 [X] Play with demand data
 Note, some ba are GENERATION-ONLY BAS
 
+Mar 4
+[]Create the mapping between BA , and the 'rb'
+Note county with sub region:Unique Balancing Authority values in SUBREGION:
+['CISO' 'ERCO' 'ISNE' 'MISO' 'NYIS' 'PJM' 'PNM' 'SWPP']
+
+And from the date source
+California Independent System Operator (CISO)
+CISO does not have subregion map provided
+Electric Reliability Council of Texas, Inc. (ERCO)
+It use the weather mapping as subregion , we do not have this piece of demad provided and the mapping and the region is not that clear
+Midcontinent Independent System Operator, Inc. (MISO)
+
+New England ISO (ISNE)
+This is perfect
+https://www.iso-ne.com/static-assets/img/wwd-in-depth-wholesale-retail-wholesale-load-zones.jpg
+![plot](./photo/ISONewEngland.jpg)
+New York Independent System Operator (NYIS)
+PJM Interconnection, LLC (PJM)
+Public Service Company of New Mexico (PNM)
+Southwest Power Pool (SWPP)
+
+Match perfectly
+
+
 
 
 
