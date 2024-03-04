@@ -164,12 +164,14 @@ DOPD p3
 ![plot](./photo/Missing_BA_Code_TPWR.png)
 
 JEA p3
-![plot](./Missing_BA_Code_JEA.png)
+![plot](./photo/Missing_BA_Code_JEA.png)
 Two small piece
 
 FMPP p102
+![plot](./photo/Missing_BA_Code_FMPP.png)
+
 CHPD p1
-![plot](./Missing_BA_Code_CHPD.png)
+![plot](./photo/Missing_BA_Code_CHPD.png)
 CHPD cross p1 and p3
 {
     "GCPD": "p4",
@@ -194,7 +196,7 @@ LGEE p108,p109
 Need attention, it seem like it is overlap with other major BA
 
 PGE p5
-![alt text](photo/Missing_BA_Code_PGE.png)
+![plot](./photo/Missing_BA_Code_PGE.png)
 too small ti detect
 
 SRP p28
@@ -204,7 +206,7 @@ TEC p101
 ![plot](./photo/Missing_BA_Code_TEC.png)
 
 OVEC p112
-![alt text](photo/Missing_BA_Code_OVEC.png)
+![plot](./photo/Missing_BA_Code_OVEC.png)
 Too small
 
 TAL p101
@@ -232,7 +234,7 @@ FPC p101
 slighly too big
 
 NSB p101
-![alt text](photo/Missing_BA_Code_NSB.png)
+![plot](./photo/Missing_BA_Code_NSB.png)
 Extend to the sea
 
 HST p102
