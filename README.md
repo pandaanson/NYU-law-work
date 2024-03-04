@@ -1,6 +1,8 @@
 Repurpose dir\
 This is the sucessor of https://github.com/pandaanson/data-download\
-Mapping creater done,note this code is not design to read in other input\
+Mapping creater done,note this code is not design to read in other input
+The mapping creater also are the one generate all the graph
+EIA exam, check the EIA dataset
 
 Data source:
 1. From tell
@@ -88,8 +90,10 @@ train:Year	Month	Day	Hour	Forecast_Demand_MWh	Adjusted_Demand_MWh	Adjusted_Gener
 Subregion
 
 Mar 3
-[] Play with demand data
+[X] Play with demand data
 Note, some ba are GENERATION-ONLY BAS
+
+
 
 
 
