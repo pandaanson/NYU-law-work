@@ -143,12 +143,26 @@ Southwest Power Pool (SWPP)
 
 
 Problematic:
+
 GCPD p4
+![plot](./photo/Missing_BA_Code_GCPD.png)
+
 WAUM p20
+![plot](./photo/Missing_BA_Code_WAUW.png)
+
 SPA p84
+![plot](./photo/Missing_BA_Code_SPA.png)
+over lap multiple rb
+
 TEPC p27
+![plot](./photo/Missing_BA_Code_TEPC.png)
+
 TPWR p1
+![plot](./photo/Missing_BA_Code_BANC.png)
+
 DOPD p3
+![plot](./photo/Missing_BA_Code_TPWR.png)
+
 JEA p3
 ![plot](./Missing_BA_Code_JEA.png)
 Two small piece
@@ -172,36 +186,84 @@ CHPD cross p1 and p3
 
 BA rb
 LDWP p10
-![plot](./Missing_BA_Code_LDWP.png)
+![plot](./photo/Missing_BA_Code_LDWP.png)
 Too small to capture
-GCPD  p109
-LGEE p109
-![plot](./Missing_BA_Code_LGEE.png)
-Need attention
-PGE p5
-SRP p28
-TEC p101
-OVEC p112
-TAL p101
-BANC p9
-![plot](./Missing_BA_Code_BANC.png)
-For BANC it is too small to capture by the existing code
-PSEI p1
-SCI p1
-NBSO p34
-FPC p101
-NSB p101
-HST p102
-SEPA p94
-SCEG p96
-GVL p101
-IID p10
-TIDC p9
 
+LGEE p108,p109
+![plot](./photo/Missing_BA_Code_LGEE.png)
+Need attention, it seem like it is overlap with other major BA
+
+PGE p5
+![alt text](photo/Missing_BA_Code_PGE.png)
+too small ti detect
+
+SRP p28
+![plot](./photo/Missing_BA_Code_SRP.png)
+
+TEC p101
+![plot](./photo/Missing_BA_Code_TEC.png)
+
+OVEC p112
+![alt text](photo/Missing_BA_Code_OVEC.png)
+Too small
+
+TAL p101
+![plot](./photo/Missing_BA_Code_TAL.png)
+Too small
+
+BANC p9
+![plot](./photo/Missing_BA_Code_BANC.png)
+For BANC it is too small to capture by the existing code
+
+PSEI p1
+![plot](./photo/Missing_BA_Code_PSEI.png)
+too fregmented
+
+SCL p1
+![plot](./photo/Missing_BA_Code_SCL.png)
+Too small to capture by the original code
+
+NBSO p34
+![plot](./photo/Missing_BA_Code_NBSE.png)
+compete within a rb just too small
+
+FPC p101
+![plot](./photo/Missing_BA_Code_FPC.png)
+slighly too big
+
+NSB p101
+![alt text](photo/Missing_BA_Code_NSB.png)
+Extend to the sea
+
+HST p102
+![plot](./photo/Missing_BA_Code_HST.png)
+island
+
+SEPA p94
+![plot](./photo/Missing_BA_Code_SEPA.png)
+too small
+
+SCEG p96
+![plot](./photo/Missing_BA_Code_SCEG.png)
+Slightly larger than than rb
+
+GVL p101
+![plot](./photo/Missing_BA_Code_GVL.png)
+too small
+
+IID p10
+![plot](./photo/Missing_BA_Code_IID.png)
+too small
+
+TIDC p9
+![plot](./photo/Missing_BA_Code_TIDC.png)
+too small
+
+```
 {
     "LDWP": "p10",
     "GCPD": "p109",
-    "LGEE": "p109",
+    "LGEE": []"p109",p108],
     "PGE": "p5",
     "SRP": "p28",
     "TEC": "p101",
@@ -209,7 +271,7 @@ TIDC p9
     "TAL": "p101",
     "BANC": "p9",
     "PSEI": "p1",
-    "SCI": "p1",
+    "SCL": "p1",
     "NBSO": "p34",
     "FPC": "p101",
     "NSB": "p101",
@@ -220,6 +282,7 @@ TIDC p9
     "IID": "p10",
     "TIDC": "p9"
 }
+```
 
 
 
