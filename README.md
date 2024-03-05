@@ -1,4 +1,7 @@
 # Repurpose Directory
+![plot](./photo/BA plot.png)
+![plot](./photo/RB in BA.png)
+![plot](./photo/RB with Contral area.png)
 
 This directory is the successor to [data-download](https://github.com/pandaanson/data-download).
 
