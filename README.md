@@ -22,6 +22,11 @@ This directory is the successor to [data-download](https://github.com/pandaanson
 - Mapping (Mapping Creator)
   - county weather ===Mapping===> subregion weather (data generation for TELL)
 
+## Github map
+
+- historical_py contain all the unused python code that was written but abandon
+- photo, useful maps
+- note, note for resoning of some of the code or processor that need to be done to myself
 
 ## Tasks
 
@@ -110,9 +115,10 @@ For training, the dataset includes the following columns:
 
 - [ ] ReEDS Load data and compare
 
-### Note for Such data set:
+## Mar 6 Task
 
-### Importand rb
-
+- [ ] Check the demand for errors
+- [ ] Write scipt to transfrom the data to what we need
+**Note:** For detail are written in notes tell_input.md
 
 
