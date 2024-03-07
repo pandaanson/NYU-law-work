@@ -33,30 +33,30 @@
 ### Problematic BA and rb Mapping
 
 - **GCPD p4:**  
-  ![GCPD p4](./photo/Missing_BA_Code_GCPD.png)
+  ![GCPD p4](../photo/Missing_BA_Code_GCPD.png)
 - **WAUM p20:**  
-  ![WAUM p20](./photo/Missing_BA_Code_WAUW.png)
+  ![WAUM p20](../photo/Missing_BA_Code_WAUW.png)
 - **SPA p84:** Overlap multiple rb  
-  ![SPA p84](./photo/Missing_BA_Code_SPA.png)
+  ![SPA p84](../photo/Missing_BA_Code_SPA.png)
 
 - **TEPC p27:**
-  ![plot](./photo/Missing_BA_Code_TEPC.png)
+  ![plot](../photo/Missing_BA_Code_TEPC.png)
 
 - **TPWR p1:**
-  ![plot](./photo/Missing_BA_Code_BANC.png)
+  ![plot](../photo/Missing_BA_Code_BANC.png)
 
 - **DOPD p3:**
-  ![plot](./photo/Missing_BA_Code_TPWR.png)
+  ![plot](../photo/Missing_BA_Code_TPWR.png)
 
 - **JEA p3:**
-  ![plot](./photo/Missing_BA_Code_JEA.png)
+  ![plot](../photo/Missing_BA_Code_JEA.png)
 Two small piece
 
 - **FMPP p102:**
-![plot](./photo/Missing_BA_Code_FMPP.png)
+![plot](../photo/Missing_BA_Code_FMPP.png)
 
 - **CHPD p1:**CHPD cross p1 and p3
-![plot](./photo/Missing_BA_Code_CHPD.png)
+![plot](../photo/Missing_BA_Code_CHPD.png)
 
 
 ```python
@@ -77,68 +77,68 @@ Two small piece
 ### BA to rb Specific Cases
 
 - **LDWP p10:** Too small to capture  
-  ![LDWP p10](./photo/Missing_BA_Code_LDWP.png)
+  ![LDWP p10](../photo/Missing_BA_Code_LDWP.png)
 
 - **LGEE p108,p109:** Overlap with other major BAs  
-  ![LGEE](./photo/Missing_BA_Code_LGEE.png)
+  ![LGEE](../photo/Missing_BA_Code_LGEE.png)
 
 - **LDWPPGE p5:** 
-![plot](./photo/Missing_BA_Code_PGE.png)
+![plot](../photo/Missing_BA_Code_PGE.png)
 too small ti detect
 
 - **LDWP- **LDWPSRP p28:** 
-![plot](./photo/Missing_BA_Code_SRP.png)
+![plot](../photo/Missing_BA_Code_SRP.png)
 
 - **TEC p101:** 
-![plot](./photo/Missing_BA_Code_TEC.png)
+![plot](../photo/Missing_BA_Code_TEC.png)
 
 - **OVEC p112v
-![plot](./photo/Missing_BA_Code_OVEC.png)
+![plot](../photo/Missing_BA_Code_OVEC.png)
 Too small
 
 - **TAL p101:** 
-![plot](./photo/Missing_BA_Code_TAL.png)
+![plot](../photo/Missing_BA_Code_TAL.png)
 Too small
 
 - **BANC p9:** 
-![plot](./photo/Missing_BA_Code_BANC.png)
+![plot](../photo/Missing_BA_Code_BANC.png)
 For BANC it is too small to capture by the existing code
 
 - **PSEI p1:** 
-![plot](./photo/Missing_BA_Code_PSEI.png)
+![plot](../photo/Missing_BA_Code_PSEI.png)
 too fregmented
 
 - **SCL p1:** 
-![plot](./photo/Missing_BA_Code_SCL.png)
+![plot](../photo/Missing_BA_Code_SCL.png)
 Too small to capture by the original code
 
 - **NBSO p34:** 
-![plot](./photo/Missing_BA_Code_NBSE.png)
+![plot](../photo/Missing_BA_Code_NBSE.png)
 compete within a rb just too small
 
 - **FPC p101:** slighly too big
-![plot](./photo/Missing_BA_Code_FPC.png)
+![plot](../photo/Missing_BA_Code_FPC.png)
 
 - **NSB p101:** Extend to the sea
-![plot](./photo/Missing_BA_Code_NSB.png)
+![plot](../photo/Missing_BA_Code_NSB.png)
 
 - **HST p102:** island
-![plot](./photo/Missing_BA_Code_HST.png)
+![plot](../photo/Missing_BA_Code_HST.png)
 
 - **SEPA p94:** too small
-![plot](./photo/Missing_BA_Code_SEPA.png)
+![plot](../photo/Missing_BA_Code_SEPA.png)
 
 - **SCEG p96:** Slightly larger than than rb
-![plot](./photo/Missing_BA_Code_SCEG.png)
+![plot](../photo/Missing_BA_Code_SCEG.png)
 
 - **GVL p101:** too small
-![plot](./photo/Missing_BA_Code_GVL.png)
+![plot](../photo/Missing_BA_Code_GVL.png)
 
 - **IID p10:** too small
-![plot](./photo/Missing_BA_Code_IID.png)
+![plot](../photo/Missing_BA_Code_IID.png)
 
 - **TIDC p9:** too small
-![plot](./photo/Missing_BA_Code_TIDC.png)
+![plot](../photo/Missing_BA_Code_TIDC.png)
 
 
 ```python
@@ -227,3 +227,5 @@ Entities with issues include:
  "WAUE": "Possibly Western Area Power Administration—Upper Great Plains East",
  "WAUW": "Errors due to not matching shape; assigned to p18"
 }
+
+For CPLW, I cound not really find where it should be, p56 is base on google and guess
