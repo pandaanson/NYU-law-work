@@ -227,5 +227,32 @@ Entities with issues include:
  "WAUE": "Possibly Western Area Power Administration—Upper Great Plains East",
  "WAUW": "Errors due to not matching shape; assigned to p18"
 }
+```
 
 For CPLW, I cound not really find where it should be, p56 is base on google and guess
+
+
+
+## After the join in dmeand mapping, there is a issue with the following county
+
+
+========================================================================
+Unique FIPS that did not find a match in county_map_df:
+['11000' '46113']
+Unique FIPS that did not find a match in demand_data_df,this idencate they does not ahve diemand:
+['09110' '09120' '09130' '09140' '09150' '09160' '09170' '09180' '09190'
+ '11001' '32017' '46102' '48103' '48157' '48227' '48301' '48475' '48495']
+
+
+DC does not have one but 110001 is not emty
+
+46113, may be no longer exist
+
+09 series are newly created:
+https://www.federalregister.gov/documents/2022/06/06/2022-12063/change-to-county-equivalents-in-the-state-of-connecticut
+
+32017
+Problem,populated
+
+46102
+https://www.ddorn.net/data/FIPS_County_Code_Changes.pdf
