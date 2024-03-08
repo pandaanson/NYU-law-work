@@ -244,15 +244,20 @@ Unique FIPS that did not find a match in demand_data_df,this idencate they does 
  '11001' '32017' '46102' '48103' '48157' '48227' '48301' '48475' '48495']
 
 
-DC does not have one but 110001 is not emty
+DC does not have one but 110001 is not emty, we consider two of them the same
 
 46113, may be no longer exist
 
 09 series are newly created:
 https://www.federalregister.gov/documents/2022/06/06/2022-12063/change-to-county-equivalents-in-the-state-of-connecticut
-
+Fine to be ignore, overlap any way
 32017
 Problem,populated
 
 46102
 https://www.ddorn.net/data/FIPS_County_Code_Changes.pdf
+
+48103
+Crane County, TX
+by https://hifld-geoplatform.hub.arcgis.com/datasets/geoplatform::control-areas/explore?location=31.771481%2C-103.201139%2C8.92
+all texus are in the ERCO region

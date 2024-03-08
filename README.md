@@ -27,6 +27,8 @@ This directory is the successor to [data-download](https://github.com/pandaanson
 - historical_py contain all the unused python code that was written but abandon
 - photo, useful maps
 - note, note for resoning of some of the code or processor that need to be done to myself
+- main, the main code, usually most up to date code and the best way we found
+- share, the folder for share some information that were request by others
 
 ## Tasks
 
